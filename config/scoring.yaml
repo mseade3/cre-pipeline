@@ -1,0 +1,19 @@
+version: "1.0"
+attribution: "Prince George’s County Planning Department."
+weights:
+  buyer_fit: 30
+  ownership_tenure: 15
+  absentee_ownership: 10
+  vacancy_underutilization: 10
+  public_records: 10
+  entity_administrative_status: 3
+  data_quality: 22
+thresholds:
+  long_tenure_years: 10
+  fresh_days: 180
+penalties:
+  recent_outreach: 15
+  recent_outreach_days: 30
+rules:
+  suppression_blocks_outreach: true
+  missing_is_unknown: true

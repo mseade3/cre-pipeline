@@ -1,0 +1,2 @@
+entity_name,maryland_department_id,entity_status,good_standing_status,principal_office,resident_agent,reviewer,review_date,official_lookup_url,evidence_notes
+Example Retail Holdings LLC,L00000001,Active,Good Standing,100 Fictional Office Rd,Fictional Registered Agent,Test Reviewer,2026-07-18,https://egov.maryland.gov/BusinessExpress/EntitySearch,Fictional fixture; resident agent is not represented as owner
