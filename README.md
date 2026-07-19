@@ -139,12 +139,14 @@ uv run cre-pipeline dashboard
 ```
 
 Open `http://127.0.0.1:8501`. The launcher binds only to localhost, runs headless, and
-disables Streamlit usage-stat collection. The dashboard shows research priorities,
-manual review queues, approval and suppression states, activity outcomes, follow-ups,
-brief previews/downloads, underwriting scenarios, and the compliance checklist.
+disables Streamlit usage-stat collection.
 
-It cannot add contacts, approve outreach, remove suppressions, or send communications.
-Use the audited CLI commands for mutations.
+Use the tabs left to right:
+**Home → Properties → To review → Contacts & activity → Follow-ups → Suppressions →
+Call brief → Underwriting → Compliance.** The sidebar explains what each screen is for.
+
+The dashboard is read-only. It cannot add contacts, approve outreach, remove
+suppressions, or send communications. Use the audited CLI commands for mutations.
 
 ## Quality checks
 

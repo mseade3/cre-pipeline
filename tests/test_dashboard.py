@@ -56,3 +56,6 @@ def test_streamlit_dashboard_renders_without_live_services(
     assert not app.exception
     assert app.title[0].value == "CRE Research Pipeline"
     assert any("No email" in caption.value for caption in app.caption)
+    assert any(tab.label == "Home" for tab in app.tabs)
+    assert any(tab.label == "Call brief" for tab in app.tabs)
+    assert any("How to use this screen" in header.value for header in app.sidebar.header)
